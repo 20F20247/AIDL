@@ -21,7 +21,7 @@ train_data = train_datagen.flow_from_directory(
     train_dir,
     target_size=(256,256),
     batch_size=32,
-    class_mode='binary',  # 'binary' for binary classification (cats vs. dogs)
+    class_mode='binary',  # 'binary' for binary classification
     subset='training'  # Specify 'training' for the training set
 )
 
